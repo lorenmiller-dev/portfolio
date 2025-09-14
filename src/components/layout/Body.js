@@ -1,8 +1,8 @@
 import React from "react";
-import Profile from "../bodyContent/Profile";
-import About from "../bodyContent/About";
-import Experience from "../bodyContent/Experience";
-import Portfolio from "../bodyContent/portfolio/Portfolio";
+import Profile from "../sections/Profile";
+import About from "../sections/About";
+import Experience from "../sections/Experience";
+import Portfolio from "../sections/Portfolio";
 
 const Body = () => {
   return (

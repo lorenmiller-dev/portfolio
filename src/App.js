@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Hello from "./components/animationIntro/Hello";
+import Hello from "./components/animations/Hello";
 import Body from "./components/layout/Body";
 import Footer from "./components/layout/Footer";
 import Navbar from "./components/layout/Navbar";

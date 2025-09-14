@@ -1,6 +1,6 @@
 import React from "react";
 import PFPImage from "../../assets/myself.JPG";
-import Resume from "../../assets/Loren_Miller_resume.pdf"
+import Resume from "../../assets/docs/Loren_Miller_resume.pdf"
 import { FaFileArrowDown } from "react-icons/fa6";
 import Icons from "../common/Icons";
 

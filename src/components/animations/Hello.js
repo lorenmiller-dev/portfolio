@@ -15,7 +15,7 @@ const Hello = ({ onComplete }) => {
       targets: paths,
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: "linear",
-      duration: 4000,
+      duration: 3500,
       direction: "normal",
       loop: false,
       complete: () => {
