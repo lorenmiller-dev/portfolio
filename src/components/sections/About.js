@@ -2,9 +2,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="h-screen bg-[#141414] flex justify-center py-20">
+    <section className="h-screen bg-[#141414] flex justify-center py-20" id="about">
       <div className="text-white font-bold text-2xl z-9">About</div>
-    </div>
+    </section>
   );
 };
 
