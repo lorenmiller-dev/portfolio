@@ -9,7 +9,7 @@ const App = () => {
   const [currentComponent, setCurrentComponent] = useState("intro");
 
   return (
-    <>
+    <div className="min-w-[900px] w-full mx-auto">
       {currentComponent === "intro" && (
         <Hello onComplete={() => setCurrentComponent("webpage")} />
       )}
@@ -24,7 +24,7 @@ const App = () => {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 };
 
