@@ -2,7 +2,7 @@ import React from "react";
 import Profile from "../sections/Profile";
 import About from "../sections/About";
 import Experience from "../sections/Experience";
-import Portfolio from "../sections/Portfolio";
+import Projects from "../sections/Projects";
 
 const Body = () => {
   return (
@@ -11,7 +11,7 @@ const Body = () => {
         <Profile />
         <About />
         <Experience />
-        <Portfolio/>
+        <Projects/>
       </div>
     </div>
   );

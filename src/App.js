@@ -9,14 +9,14 @@ const App = () => {
   const [currentComponent, setCurrentComponent] = useState("intro");
 
   return (
-    <p>
+    <div className="min-w-[900px] w-full mx-auto">
       {currentComponent === "intro" && (
         <Hello onComplete={() => setCurrentComponent("webpage")} />
       )}
       {currentComponent === "webpage" && (
         <div className="fade-in">
           <div className="fixed z-10">
-            <Navbar/>
+            <Navbar />
           </div>
           <div className="body w-screen">
             <Body />
@@ -24,7 +24,7 @@ const App = () => {
           </div>
         </div>
       )}
-    </p>
+    </div>
   );
 };
 
